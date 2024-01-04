@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Pascal Triangle Interview Challenge"""
 
+
 def pascal_triangle(n):
     """Generates Pascal's Triangle up to the nth row.
 
@@ -24,7 +25,7 @@ def pascal_triangle(n):
         # The first element in each row is always 1
         pascal_triangle_list[i].append(1)
 
-        # Iterate through each element in the row (excluding the first and last)
+    # Iterate through each element in the row (excluding the first and last)
         for j in range(1, i):
             # Calculate the value using the values from the previous row
             x = pascal_triangle_list[i-1][j-1]
