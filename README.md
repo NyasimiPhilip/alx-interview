@@ -1,4 +1,4 @@
-    <h1>Interview Prep - ALX & Holberton School</h1>
+  <h1>Interview Prep - ALX & Holberton School</h1>
     <h2>Description</h2>
     <p>This repository contains programs written for the interview prep section.</p>
     <h2>Tasks</h2>
