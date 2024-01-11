@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Lockboxes Algorithm Challenge</title>
-</head>
-<body>
   <h1>Lockboxes Algorithm Challenge</h1>
   <h2>Problem Statement</h2>
   <p>You are presented with a set of locked boxes, numbered sequentially from 0 to n - 1. Each box may contain keys to other boxes. Your task is to implement a method <code>canUnlockAll(boxes)</code> that determines if all the boxes can be opened.</p>
@@ -31,6 +25,8 @@
   <h2>Example</h2>
   <pre><code>boxes = [[1], [2], [3], []]
   canUnlockAll(boxes)  # Returns True
+  boxes = [[1, 4, 6], [2], [0, 4, 1], [5, 6, 2], [3], [4, 1], [6]]
+  canUnlockAll(boxes) # Returns True
+  boxes = [[1, 4], [2], [0, 4, 1], [3], [], [4, 1], [5, 6]]
+  canUnlockAll(boxes) #Returns False
   </code></pre>
-</body>
-</html>
