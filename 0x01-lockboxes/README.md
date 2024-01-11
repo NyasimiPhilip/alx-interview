@@ -23,7 +23,8 @@
   <h2>Constraints</h2>
   <p>All keys are positive integers. There can be keys that do not correspond to boxes.</p>
   <h2>Example</h2>
-  <pre><code>boxes = [[1], [2], [3], []]
+  <pre><code>
+  boxes = [[1], [2], [3], []]
   canUnlockAll(boxes)  # Returns True
   boxes = [[1, 4, 6], [2], [0, 4, 1], [5, 6, 2], [3], [4, 1], [6]]
   canUnlockAll(boxes) # Returns True
